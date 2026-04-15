@@ -1,0 +1,22 @@
+{
+	"files.autoSave": "afterDelay",
+	"editor.insertSpaces": false,
+	"json.schemas": [
+		{
+			"fileMatch": ["config.json"],
+			"url": ".vscode/schemas/config.schema.json"
+		},
+		{
+			"fileMatch": ["fixtures/selectors.json", "selectors.json"],
+			"url": ".vscode/schemas/selectors.schema.json"
+		},
+		{
+			"fileMatch": ["reports/**.json"],
+			"url": ".vscode/schemas/report.schema.json"
+		},
+		{
+			"fileMatch": ["*.schema.json"],
+			"url": "http://json-schema.org/draft-07/schema#"
+		}
+	]
+}
