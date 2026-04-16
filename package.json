@@ -1,9 +1,25 @@
 {
   "name": "@danieljohnbyns/snipboard",
-  "module": "index.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "author": "Daniel John Baynosa <danieljohnbyns@gmail.com>",
   "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "bun build index.ts --outdir dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "url": "https://github.com/danieljohnbyns/snipboard",
+    "type": "git"
+  },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/bun": "latest",

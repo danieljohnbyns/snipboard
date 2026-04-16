@@ -6,7 +6,7 @@
 		"module": "ESNext",
 		"moduleDetection": "force",
 		"allowJs": true,
-		"types": ["node"],
+		"types": ["node", "bun-types"],
 
 		// Bundler mode
 		"allowImportingTsExtensions": true,
