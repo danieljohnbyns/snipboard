@@ -1,5 +1,8 @@
 # @danieljohnbyns/snipboard
 
+[![Weekly Tests](https://github.com/danieljohnbyns/snipboard/actions/workflows/weekly-tests.yml/badge.svg)](https://github.com/danieljohnbyns/snipboard/actions/workflows/weekly-tests.yml)
+[![npm version](https://img.shields.io/npm/v/%40danieljohnbyns%2Fsnipboard.svg)](https://www.npmjs.com/package/@danieljohnbyns/snipboard)
+
 Upload images to snipboard.io from JavaScript/TypeScript.
 
 This package is an unofficial library and is not affiliated with or endorsed by snipboard.io.
